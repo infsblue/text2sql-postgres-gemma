@@ -1,14 +1,10 @@
-# Text2sql-postgres-gemma
+# text2sql-postgres-gemma
 
 An open-source Python engine that converts natural language into PostgreSQL queries using CodeGemma.
-
----
 
 ## About
 
 **Text2sql-postgres-gemma** is a lightweight, privacy-focused Text-to-SQL engine designed to run fully local on Linux systems. By leveraging Google's **CodeGemma 1.1 7B Instruct** model via local GGUF inference, it translates plain natural language questions into valid, optimized PostgreSQL `SELECT` queries without transmitting database schemas or sensitive context to third-party cloud APIs.
-
----
 
 ## Model
 
@@ -16,8 +12,6 @@ An open-source Python engine that converts natural language into PostgreSQL quer
 * **Recommended File:** `codegemma-1.1-7b-it-f16.gguf` (~16.2 GB) or community quantized versions (e.g., `Q4_K_M` ~5.3 GB)
 * **Execution Engine:** Local execution via `llama-cpp-python` with hybrid GPU/CPU offloading
 * **Licensing:** Subject to [Google Gemma Terms of Use](https://ai.google.dev/gemma/terms)
-
----
 
 ## Requirements
 
@@ -39,8 +33,6 @@ An open-source Python engine that converts natural language into PostgreSQL quer
 - python-dotenv>=1.0.1
 - pydantic>=2.0.0
 
----
-
 ## Acceptance Criteria
 
 To ensure reliable, secure, and production-ready operation, the pipeline enforces the following criteria:
@@ -59,8 +51,6 @@ To ensure reliable, secure, and production-ready operation, the pipeline enforce
 5. **Licensing Isolation:**
    * Codebase distributed under the **BSD 2-Clause License**.
    * Model weights (`*.gguf`) are strictly excluded from Git tracking via `.gitignore`.
-
----
 
 ## Licensing & Dependencies
 
