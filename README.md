@@ -1,3 +1,7 @@
+> [!WARNING]
+> **Proof of Concept — under constant change and research.**
+> This repository is an early-stage proof of concept and is evolving continuously. The documentation below describes the **initial requirements** of the project and may not reflect the current state of the code, the model, or the setup. Dependencies, endpoints, hardware requirements, and acceptance criteria may differ from what is written here. When in doubt, the source code is the reference.
+
 # text2sql-postgres-gemma
 
 An open-source Python engine that converts natural language into PostgreSQL queries using CodeGemma.
