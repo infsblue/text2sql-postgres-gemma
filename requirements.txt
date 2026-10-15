@@ -1,5 +1,0 @@
-llama-cpp-python>=0.2.75
-psycopg2-binary>=2.9.9
-sqlglot>=23.0.0
-python-dotenv>=1.0.1
-pydantic>=2.0.0
